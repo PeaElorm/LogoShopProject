@@ -1,0 +1,67 @@
+body
+{
+    background-color: rgb(19, 104, 95);
+}
+*{
+    box-sizing: border-box;
+}
+
+h1
+{
+    color: teal;
+}
+
+.container
+{
+    margin: auto;
+    width: 50%;
+    padding: 16pt;
+    background-color: white;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 7);
+}
+
+input[type ='text'],
+input[type='password'] 
+{
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: whitesmoke;   
+}
+
+.button
+{
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+    width: 100%;
+
+}
+
+.button:hover
+{
+    background-color: rgb(0, 0, 0);
+    transition: 0.8s;
+}
+
+.button:focus
+{
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 2px #add8e6;
+    transition: 0.8s;
+}
+
+.button:active
+{
+    background-color: blanchedalmond;
+}
